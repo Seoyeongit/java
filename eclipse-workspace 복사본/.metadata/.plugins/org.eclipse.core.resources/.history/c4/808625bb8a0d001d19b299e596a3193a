@@ -1,0 +1,10 @@
+package p05.local_variable_scope;
+
+public class LocalVariableScopeEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

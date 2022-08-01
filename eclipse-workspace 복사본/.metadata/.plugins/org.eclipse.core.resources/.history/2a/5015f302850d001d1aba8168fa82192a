@@ -1,0 +1,28 @@
+package p03.datatypes_promotion;
+
+// 정수형 산술연산(+, -, *, / 등)에서의 데이터 타입 자동컨버젼 (promotion)
+// 1. int보다 작은 byte, char, short를 사용하여 산술연산을 수행하면 무조건 int 타입으로 자동형변환 시킴
+
+public class TypeConversionInExpressionEx {
+
+	public static void main(String[] args) {
+		byte b1 = 42;
+		byte b2 = 10;
+		byte sum;
+		char c1 = 20;
+		char c2 = 30;
+		char csum;
+		int sum1;
+		
+		
+		// b1 + b2를 수행할  기계어로 표현
+		// 1. byte type인 b1을 int type으로 promotion 시킴 (즉, 1byte => 4byte 크기로 확장)
+		// 2. byte type인 b2를 int type으로 promotio 시킴
+		// 3. b1 + b2를 수행
+		// 4. int type인 결과값을 byte type인 sum에 넣으려고 한기 에러가 발생함
+		sum = (byte)(b1 + b2); // (byte) : casting (강제형변환)
+		sum1 = b1 + b2;
+		csum = c1 + c2
+	//	ssum1= (b1 + b2)
+	}
+}

@@ -1,0 +1,32 @@
+package q01.quiz01;
+
+import java.util.Scanner;
+
+public class quiz03 {
+
+	double money = 0;               // 매달 넣을 원금
+	double month_interest_rate = 0; // 월이자
+	int month = 0;                  
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("매달 넣을 원금을 입력해주세요.");
+		double money = input.nextDouble();
+		
+		System.out.println("연이율(~~%)를 입력해주세요.");
+		double month_interest_rate = 1+((input.nextDouble()/100)/12);
+		
+		double month1 = money * month_interest_rate;
+
+		
+		
+		System.out.println(month + "개월 후 적금 총금액은 원금 " + month*money +
+				"원 + 이자 " + (balance-month*money) + "로\n총금액은 " +
+				balance + "원입니다.");
+
+
+	}
+
+}

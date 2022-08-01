@@ -1,0 +1,10 @@
+package p05.practice;
+
+public class FahrenheitToCelcius {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

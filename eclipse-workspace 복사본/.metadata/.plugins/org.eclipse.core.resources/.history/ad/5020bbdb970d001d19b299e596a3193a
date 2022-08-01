@@ -1,0 +1,30 @@
+package p01.basic;
+
+public class ArithmeticOperatorEx {
+
+	public static void main(String[] args) {
+		int a1 = 10;
+		int a2 = 3;
+		int result;
+		double dresult;
+		
+		result = a1 + a2;
+		System.out.println("result = " + result);
+		
+		result = a1 - a2;
+		System.out.println("result = " + result);
+		
+		result = a1 * a2;
+		System.out.println("result = " + result);
+		
+		result = a1 / a2; // / : 몫을 가져옴
+		System.out.println("result = " + result);
+		
+		result = a1 % a2; // % : 나머지를 가져옴
+		System.out.println("result = " + result);
+		
+		dresult = a1 / (double)a2;
+		System.out.println("dresult = " + dresult);
+	}
+
+}

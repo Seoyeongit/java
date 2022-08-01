@@ -1,0 +1,37 @@
+package q01.quiz01;
+
+public class quiz03 {
+
+	double money = 0;               // 매달 넣을 원금
+	double month_interest_rate = 0; // 월이자
+	int month = 0;                  // 납입 개월 수
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("매달 넣을 원금을 입력해주세요.");
+		double money = input.nextDouble();
+		
+		System.out.println("연이자(~~%)를 입력해주세요.");
+		double month_interest_rate = 1+((input.nextDouble()/100)/12);
+
+        // 여기까지는 별 변경 점 없음.
+		
+		System.out.println("총 납입개월을 입력해주세요."); // 새로 추가함.
+		int month = input.nextInt();
+		
+		double balance = 0; // 누적액(잔고)
+		
+		for (int i=1; i<=month; i++) { // 누적액은 (전월 누적 + 적금액)*월이자율을 i회 반복
+			balance = (balance + money)*month_interest_rate;
+		}input.close();
+		
+		System.out.println(month + "개월 후 적금 총금액은 원금 " + month*money +
+				"원 + 이자 " + (balance-month*money) + "로\n총금액은 " +
+				balance + "원입니다.");
+
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package q01.quiz01;
+
+import java.util.Scanner;
+
+public class quiz05 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("2개의 정수를 입력하세요. ");
+		int a= input.nextInt();
+		int b= input.nextInt();
+		
+		int result1 = a + b;
+		int result2 = a - b; 
+		int result3 = a * b;
+		int result4 = a + b / 2;
+	
+		
+			
+		
+		
+		
+		System.out.println(result1, result2, result3, result4);
+		
+		
+		
+		
+	}
+
+}

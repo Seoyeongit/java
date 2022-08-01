@@ -1,0 +1,17 @@
+package p04.datatypes_casting;
+
+public class CastingEx2 {
+
+	public static void main(String[] args) {
+		byte byteValue = 0;
+		int intValue = 257;
+		double doubleValue = 323.142;
+		
+		byteValue = (byte) intValue;
+		System.out.println("byteValue = " + byteValue);
+		
+		
+
+	}
+
+}

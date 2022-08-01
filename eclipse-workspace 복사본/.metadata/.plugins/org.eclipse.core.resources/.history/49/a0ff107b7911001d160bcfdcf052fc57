@@ -1,0 +1,22 @@
+package p05.for_basic;
+
+public class ForBasic4 {
+
+	public static void main(String[] args) {
+		float fSum = 0.0f;
+		
+		for (float i=0.01f; i<=1.0f; i+=0.01f) {
+			fSum += i;
+		}
+		
+		System.out.println("fSum = " + fSum);
+		
+		double dSum = 0.0;
+		for (double i=0.01; i<=1.0; i+=0.01) {
+			dSum += i;
+		}
+		
+		System.out.println("dSum = " + dSum);
+	}
+
+}

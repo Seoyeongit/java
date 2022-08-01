@@ -1,0 +1,10 @@
+package p04.dowhile_practice;
+
+public class RepeatAdditionQuiz {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package p04.dowhile_basic;
+
+public class DoWhileBasic {
+
+	public static void main(String[] args) {
+		int count = 0;
+		
+		do {
+			System.out.println("Java씨, 존경합니다.");
+			count++;
+		} while (count < 10);
+
+	}
+
+}

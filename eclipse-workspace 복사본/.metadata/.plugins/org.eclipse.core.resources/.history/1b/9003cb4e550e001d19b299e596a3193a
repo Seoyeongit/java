@@ -1,0 +1,22 @@
+package p01.if_basic;
+
+import java.util.Scanner;
+
+public class IfBasic {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("원의 반지름을 입력하세요.");
+		int radius = input.nextInt();
+		
+		double area = 0.0;
+		
+		area = radius * radius * 3.14159;
+		System.out.println("원의 면적은 " + area + "입니다.");
+		
+		
+
+	}
+
+}

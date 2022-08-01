@@ -1,0 +1,17 @@
+package p03.while_basic;
+
+public class WhileBasic {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Java씨, 존경합니다.");
+		System.out.println("Java씨, 존경합니다.");
+		System.out.println("Java씨, 존경합니다.");
+		System.out.println("Java씨, 존경합니다.");
+		System.out.println("Java씨, 존경합니다.");
+		System.out.println("Java씨, 존경합니다.");
+		
+
+	}
+
+}

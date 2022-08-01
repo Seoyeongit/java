@@ -1,0 +1,19 @@
+package q01.quiz01;
+
+public class quiz02 {
+
+	public static void main(String[] args) {
+		int minutes = 123000;
+		int day = 24 * 60;
+		int year = 365;
+		
+		int result = minutes / day;
+		System.out.println(result + "일");
+		
+		
+		
+		
+		
+	}
+
+}

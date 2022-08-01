@@ -1,0 +1,10 @@
+package p02.inc_dec;
+
+public class DecrementOperatorEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

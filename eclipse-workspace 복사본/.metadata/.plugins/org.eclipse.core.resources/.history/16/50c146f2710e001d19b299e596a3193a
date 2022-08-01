@@ -1,0 +1,26 @@
+package practice1;
+
+
+// id 값으로 egoing, k8805, sorialgi 중의 하나를 사용하고 비밀번호는 111111을 입력하면 right 외의 경우에는 wrong를 출력하는 예다.
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		String id = "egoing";
+		String password = "111111";
+		
+		if ((id == "egoing") || (id == "k8805") || (id == "sorialgi") && (password == "111111") ) {
+			System.out.println("right");			
+		} else 
+			System.out.println("Wrong");
+		
+	     if (!true) {
+	            System.out.println(1);
+	        }
+	        if (!false) {
+	            System.out.println(2);
+	        }
+	 	}
+	}
+
+

@@ -1,0 +1,18 @@
+package p04.nan_infinity;
+
+// 1. Infinity : 무한대, 특히 분모를 0으로 나눌 경우
+public class InfinityAndNaNCheckEx {
+	
+	public static void main(String[] args) {
+		int x = 5;
+		double y = 0.0;
+		double z;
+		
+//		z = x/y;		//무한대 (Infinity)
+		z = x % y;
+		
+		System.out.println("z = " + z);
+		
+	}
+	
+}
